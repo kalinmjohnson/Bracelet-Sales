@@ -28,10 +28,25 @@ button{
   text-align: center;
 }
 
+body {
+  background-image: url("https://www.ppt-backgrounds.net/thumbs/light-rustic-wood--pictures--becuo-quality-ppt-backgrounds.jpg");
+}
+
+
+  /*background-image: url("https://www.ppt-backgrounds.net/thumbs/light-rustic-wood--pictures--becuo-quality-ppt-backgrounds.jpg"); */
+  /*background-image: url("https://c2.staticflickr.com/4/3556/3408195869_a0cdeec447_b.jpg");*/
+  /*background-image: url("https://searchengineland.com/figz/wp-content/seloads/2014/08/tools-toolbox-ss-1920.jpg");*/
+
+footer,
 .updates,
 .about1,
 .about2,
 .creator {
-  border: 2px solid black;
+  background: white;
+}
+
+
+header {
+  background: tan;
 }
 
