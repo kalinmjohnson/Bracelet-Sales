@@ -1,52 +1,274 @@
+nav {
+  background-color: gray;
+  border-radius: 20px;
+  position: fixed;
+  width: 99%;
+  z-index: 2;
+  font-family: Didot, serif;
+  margin-right: auto;
+
+}
+
+.all.navbar-default {
+  background-color: transparent;
+}
+
+.bg-color {
+  background-color: RGBA(0, 0, 0, 0.41);
+}
+
+.nav>li>a {
+  padding: 0px;
+}
+
+.navbar-brand {
+  padding: 0px;
+  height: inherit;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: 50;
+  letter-spacing: 2px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #FFD34E;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  padding: 5px 30px 50px 30px;
+  text-transform: uppercase;
+	background-color: transparent;
+}
+
+.navbar-default{
+  float: right;
+  text-align: right;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: #FFD34E;
+}
+
+.navbar-fixed-top {
+  padding: 10px 0;
+  transition: all 1s;
+}
+
+@media (max-width: 768px) {
+	.navbar-collapse {
+		background: rgba(0, 0, 0, 0.8);
+		border-top: 0;
+	}
+}
+
+.top-nav-collapse {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 5px 0;
+}
+
 h1 {
-  font-family: Georgia;
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  margin: 0px;
+  font-weight: 900;
+  padding-top: 270px;
+  padding-bottom: 270px;
+  padding-right: 200px;
+  padding-left: 200px;
+  border-radius: 25px;
+  position: relative;
+  top: 110px;
+}
+
+main {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 10px;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15px;
+  position: relative;
+  z-index: 1;
+  top: 100px;
+  font-family: Optima, sans-serif;
+  font-family: 'Century';
+  color: #5D6063;
+  padding: 150px;
+}
+
+.title {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/57ba54e7197aea4fdb66d9dc/1473715214523-VPNPP1K9JZRK39OH8OP9/ke17ZwdGBToddI8pDm48kKEyAyosbcC0HBWMEw0li6EUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2duwIvOljuUA1AUkg6gYOS0gBDTUgBvLI8DZh5agWgf9om7cT0R_dexc_UL_zbpz6JQ/Forest-Fog-Background.jpg?format=1500w");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  object-fit: fill;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  padding-top: 300px;
+  padding-bottom: 200px;
+}
+
+#about {
+  background-color: white;
   color: black;
-  text-align: center;
+  font-size: 16;
+  padding: 40px;
+  margin: 10px;
+  font-size: 25px;
+  border: 10px solid transparent;
+  padding: 15px;
+  background-color: lightgray;
+  margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 0.25rem 9999rem;
+  /*border-image-source: url(https://images.unsplash.com/photo-1498092651296-641e88c3b057?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+  border-image-slice: 20;
+  border-image-width: 20;
+  border-image-outset: 1;
+  border-image-repeat: round;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border: black;
+  border-image: url(https://images.unsplash.com/photo-1498092651296-641e88c3b057?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-width: 50px;
+  border-style: solid;*/
 }
 
-p {
-  border-bottom: 1px solid black;
-  font-weight: 100;
-  font-size: 22px;
-  line-height: 24px;
-  padding-bottom: 30px;
+#purchase {
+  background-color: white;
+  font-size: 16;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 25px;
+  font-size: 25px;
+}
+
+#contact {
+  background-color: gray;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 25px;
+  font-size: 25px;
+  color: white;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  display: inline;
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.navbarli {
+  display: inline;
+  font-size: 20px;
+}
+
+
+h2 {
+  border-bottom: 3px solid black;
+}
+
+footer {
+  color: black;
+  font-size: 14px;
+  text-align: center;
+  font-family: Optima, sans-serif;
+  background-color: gray;
+}
+
+.title {
+  font-family: Apple Chancery, cursive;
+  font-size: 50px;
+}
+
+.about2 {
+  text-align: left;
+}
+
+input {
+  font-size: 20px;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+.love {
+  font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  float: left;
+  color: #DEB887;
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+  padding-left: 40px;
+  overflow: hidden;
+  letter-spacing: 2px;
+}
+
+#email {
+  display: inline;
+}
+
+.background {
+  text-align: center;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 0px;
+  padding: 20px;
+  margin-top: 60px;
+  background-color: white;
+}
+
+.general-about {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 0px;
+}
+
+.link {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 0px;
+}
+
+img {
   width: 100%;
+  height: 500px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border radius: 20px;
+  padding: 0px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+article {
   text-align: center;
 }
-
-h2{
-  font-size: 2em;
-  padding-top: 100px;
-  width: 100%;
-  text-align: center;
-}
-
-button{
-  font-size: 1em;
-  padding-top: 50px;
-  width: 100%;
-  text-align: center;
-}
-
-body {
-  background-image: url("https://www.ppt-backgrounds.net/thumbs/light-rustic-wood--pictures--becuo-quality-ppt-backgrounds.jpg");
-}
-
-
-  /*background-image: url("https://www.ppt-backgrounds.net/thumbs/light-rustic-wood--pictures--becuo-quality-ppt-backgrounds.jpg"); */
-  /*background-image: url("https://c2.staticflickr.com/4/3556/3408195869_a0cdeec447_b.jpg");*/
-  /*background-image: url("https://searchengineland.com/figz/wp-content/seloads/2014/08/tools-toolbox-ss-1920.jpg");*/
-
-footer,
-.updates,
-.about1,
-.about2,
-.creator {
-  background: white;
-}
-
-
-header {
-  background: tan;
-}
-
