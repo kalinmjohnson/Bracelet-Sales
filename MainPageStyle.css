@@ -104,6 +104,8 @@ main {
   font-family: 'Century';
   color: #5D6063;
   padding: 150px;
+  line-height: 1.8;
+  width: 90%;
 }
 
 .title {
@@ -124,7 +126,6 @@ main {
 
 #about {
   background-color: white;
-  color: black;
   font-size: 16;
   padding: 40px;
   margin: 10px;
@@ -187,7 +188,8 @@ ul {
 
 
 h2 {
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid darkgray;
+  color: #5D5052;
 }
 
 footer {
