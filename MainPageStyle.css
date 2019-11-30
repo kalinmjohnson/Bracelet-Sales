@@ -109,7 +109,7 @@ main {
 }
 
 .title {
-  background-image: url("https://images.squarespace-cdn.com/content/v1/57ba54e7197aea4fdb66d9dc/1473715214523-VPNPP1K9JZRK39OH8OP9/ke17ZwdGBToddI8pDm48kKEyAyosbcC0HBWMEw0li6EUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2duwIvOljuUA1AUkg6gYOS0gBDTUgBvLI8DZh5agWgf9om7cT0R_dexc_UL_zbpz6JQ/Forest-Fog-Background.jpg?format=1500w");
+  background-image: url("images/OnWrist.jpg");
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -179,6 +179,10 @@ ul {
   margin: 5px;
   padding: 5px;
   overflow: hidden;
+}
+
+#sizes {
+  border: 2px darkgray solid;
 }
 
 .navbarli {
