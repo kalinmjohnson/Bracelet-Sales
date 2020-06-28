@@ -110,6 +110,8 @@ main {
 
 .title {
   background-image: url("images/BlackBckgrdBracelt.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
