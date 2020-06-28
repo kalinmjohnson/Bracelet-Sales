@@ -1,5 +1,5 @@
 nav {
-  background-color: gray;
+  background-color: #6A4B35;
   border-radius: 20px;
   position: fixed;
   width: 99%;
@@ -11,6 +11,10 @@ nav {
 
 .all.navbar-default {
   background-color: transparent;
+}
+
+.all {
+  text-align: center;
 }
 
 .bg-color {
@@ -108,33 +112,56 @@ main {
   width: 90%;
 }
 
+#heading2 {
+  font-size: 40px;
+}
+
+body {
+  overflow-x: hidden !important;
+  max-width: 100% !important;
+}
+
+html {
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 .title {
-  background-image: url("images/BlackBckgrdBracelt.jpg");
-  background-repeat: no-repeat;
-  background-size:cover;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0;
   width: 50%;
-  height: 100%;
+  height: 120%;
   text-align: center;
-  object-fit: fill;
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-size: 15px;
-  padding-top: 300px;
-  padding-bottom: 200px;
+  object-fit: cover;
+  font-size: 25px;
+  padding-top: 320px;
+  padding-bottom: 320px;
+  overflow-x: hidden
 }
 
+#tit {
+  font-size: 70px;
+  position: sticky; top:5;
+}
+
+.title {
+  background-image: url("images/BlackBckgrdBracelt.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
 #about {
-  background-color: white;
   font-size: 16;
   padding: 40px;
   margin: 10px;
-  font-size: 25px;
   border: 10px solid transparent;
   padding: 15px;
-  background-color: lightgray;
+  background-color: 	#b69e7e;
   margin: 0 -9999rem;
   /* add back negative margin value */
   padding: 0.25rem 9999rem;
@@ -194,8 +221,8 @@ ul {
 
 
 h2 {
-  border-bottom: 3px solid darkgray;
-  color: #5D5052;
+  border-bottom: 3px solid rgb(49, 49, 49);
+  color: #3b2f26;
 }
 
 footer {
@@ -251,7 +278,7 @@ input {
 
 .general-about {
   background-color: white;
-  padding: 30px;
+  padding: 10px;
   border-radius: 20px;
   border-style: solid;
   border-width: 0px;
@@ -265,6 +292,15 @@ input {
   border-width: 0px;
 }
 
+#PurchaseABracelet{
+  background-color: #b69e7e;
+  padding: 30px;
+  border-radius: 20px;
+  border-style: ridge;
+  border-width: 2px;
+  color: #3A281B;
+}
+
 img {
   width: 100%;
   height: 500px;
@@ -274,7 +310,6 @@ img {
   margin-bottom: 60px;
   border radius: 20px;
   padding: 0px;
-  box-shadow: 10px 10px 5px grey;
 }
 
 article {
