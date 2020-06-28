@@ -220,11 +220,11 @@ input {
 }
 
 .love {
-  font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+  font-family: Didot, serif;
   font-size: 45px;
   font-weight: bold;
   float: left;
-  color: #DEB887;
+  color: #caa472;
   list-style-type: none;
   margin: 5px;
   padding: 5px;
