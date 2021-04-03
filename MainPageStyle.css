@@ -126,8 +126,7 @@ header {
   height: auto;
   background: url('IMG_5024.jpg') no-repeat center fixed;     
   background-size: cover;
-  font-family: Marker Felt, fantasy;
-  text-shadow: 0 2px #8A584C, 0 5px #8A584C;
+  text-shadow: 0 5px #8A584C, 0 5px #8A584C;
 }
 
 body {
@@ -154,6 +153,7 @@ html {
   padding-top: 270px;
   padding-bottom: 220px;
   padding-right: 20px;
+  font-family: Optima, sans-serif;
 }
 
 .title {
