@@ -1,16 +1,15 @@
 nav {
-  background-color: #6A4B35;
-  border-radius: 20px;
+  border-radius: 0px;
   position: fixed;
-  width: 99%;
+  width: 100%;
   z-index: 2;
   font-family: Didot, serif;
   margin-right: auto;
-
+  background-color: lightgray;
 }
 
 .all.navbar-default {
-  background-color: transparent;
+  background-color: white;
 }
 
 .all {
@@ -32,24 +31,25 @@ nav {
 }
 
 .navbar-default .navbar-brand {
-  color: #fff;
-  font-size: 34px;
+  color: white;
+  font-size: 25px;
   text-transform: uppercase;
   font-weight: 50;
   letter-spacing: 2px;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  color: #FFD34E;
+  color:rgb(99, 99, 99);
   text-transform: uppercase;
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #fff;
-  padding: 5px 30px 50px 30px;
+  color:rgb(99, 99, 99);
+  padding: 5px 10px 10px 20px;
   text-transform: uppercase;
-	background-color: transparent;
+  background-color: transparent;
+  margin: 0px;
 }
 
 .navbar-default{
@@ -58,7 +58,7 @@ nav {
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-  color: #FFD34E;
+  color:rgb(99, 99, 99);
 }
 
 .navbar-fixed-top {
@@ -81,17 +81,20 @@ nav {
 h1 {
   color: white;
   text-align: center;
-  font-size: 45px;
+  font-size: 50px;
   margin: 0px;
-  font-weight: 900;
+  font-weight: 700;
   padding-top: 270px;
-  padding-bottom: 270px;
+  padding-bottom: 100px;
   padding-right: 200px;
   padding-left: 200px;
   border-radius: 25px;
   position: relative;
-  top: 110px;
+  top: 180px;
+  font-family: Optima, sans-serif;
 }
+
+
 
 main {
   box-sizing: border-box;
@@ -104,7 +107,7 @@ main {
   position: relative;
   z-index: 1;
   top: 100px;
-  font-family: Optima, sans-serif;
+  font-family: Didot, serif;
   font-family: 'Century';
   color: #5D6063;
   padding: 150px;
@@ -116,9 +119,21 @@ main {
   font-size: 40px;
 }
 
+header {
+  overflow-x: hidden !important;
+  max-width: 100% !important;
+  width: 100%;
+  height: auto;
+  background: url('IMG_5024.jpg') no-repeat center fixed;     
+  background-size: cover;
+  font-family: Marker Felt, fantasy;
+  text-shadow: 0 2px #8A584C, 0 5px #8A584C;
+}
+
 body {
   overflow-x: hidden !important;
   max-width: 100% !important;
+  margin:0px;
 }
 
 html {
@@ -127,28 +142,40 @@ html {
   overflow-x: hidden;
 }
 
+.next {
+  overflow-x: hidden !important;
+  max-width: 100% !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  padding-top: 270px;
+  padding-bottom: 220px;
+  padding-right: 20px;
+}
+
 .title {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0;
-  width: 50%;
-  height: 120%;
+  margin-top: 40px;
+  width: 70%;
+  height: 100%;
   text-align: center;
   object-fit: cover;
-  font-size: 25px;
-  padding-top: 320px;
-  padding-bottom: 320px;
+  padding-top: 30px;
+  padding-bottom: 220px;
   overflow-x: hidden
 }
 
 #tit {
-  font-size: 70px;
-  position: sticky; top:5;
+  font-size: 90px;
+  position: sticky; top:7;
 }
 
 .title {
-  background-image: url("images/BlackBckgrdBracelt.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -156,12 +183,14 @@ html {
 
 
 #about {
-  font-size: 16;
-  padding: 40px;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
   margin: 10px;
-  border: 10px solid transparent;
+  /*border: 10px solid transparent;*/
   padding: 15px;
-  background-color: 	#eeeeee;
+  background: url('gray-wood-texture-background_64749-611.jpg') no-repeat center fixed;     
+  background-size: cover;
   margin: 0 -9999rem;
   /* add back negative margin value */
   padding: 0.25rem 9999rem;
@@ -226,25 +255,25 @@ ul {
 
 
 h2 {
-  border-bottom: 3px solid rgb(49, 49, 49);
-  color: #3b2f26;
+  border-bottom: 3px solid#8A584C;
+  color: #8A584C;
+  text-shadow: 0 1px #505050;
 }
 
 footer {
   color: black;
   font-size: 14px;
   text-align: center;
-  font-family: Optima, sans-serif;
+  font-family: Didot, serif;
   background-color: gray;
 }
 
 .title {
-  font-family: Apple Chancery, cursive;
   font-size: 50px;
 }
 
 .about2 {
-  text-align: left;
+  text-align: center;
 }
 
 input {
@@ -258,7 +287,7 @@ input {
   font-size: 45px;
   font-weight: bold;
   float: left;
-  color: #caa472;
+  color: #8A584C;
   list-style-type: none;
   margin: 5px;
   padding: 5px;
@@ -273,50 +302,104 @@ input {
 
 .background {
   text-align: center;
-  border-radius: 20px;
+  border-radius: 10px;
   border-style: solid;
   border-width: 0px;
-  padding: 20px;
+  padding: 40px;
   margin-top: 60px;
-  background-color: white;
+  background-color:rgb(230, 227, 227);
+  color: rgb(44, 44, 44);
 }
 
 .general-about {
-  background-color: white;
-  padding: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
+  padding: 50px;
   border-style: solid;
   border-width: 0px;
+  text-align: center;
+  background-color: rgb(230, 227, 227);
+  color: rgb(44, 44, 44);
 }
 
 .link {
-  background-color: white;
-  padding: 30px;
-  border-radius: 0px;
+  border-radius: 10px;
+  background-color: rgb(230, 227, 227);
+  color: rgb(44, 44, 44);
+  padding: 50px;
   border-style: solid;
   border-width: 0px;
 }
 
 #PurchaseABracelet{
-  background-color: #b69e7e;
-  padding: 30px;
+  background-color: #8A584C;
+  padding: 50px;
   border-radius: 30px;
   border-style: ridge;
   border-width: 2px;
-  color: #3A281B;
+  color: white;
 }
 
 img {
+  overflow-x: hidden !important;
+  max-width: 100% !important;
   width: 100%;
   height: 500px;
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 60px;
   margin-bottom: 60px;
-  border radius: 0px;
+  border-radius: 10px;
   padding: 0px;
+}
+
+#a {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  height: 50%;
+}
+
+#b {
+  float: right;
+  width: 25%;
+  padding: 5px;
+  height: 50%;
+}
+
+#c {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  height: 50%;
+}
+
+#d {
+  float: right;
+  width: 25%;
+  padding: 5px;
+  height: 50%;
+}
+
+/*.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}*/
+
+.row {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 article {
   text-align: center;
+}
+
+.simple{
+  border-bottom: #8A584C;
+  border-top: #8A584C;
+  border-width: 10px;
+  border-style: solid;
+  padding: 30px;
 }
